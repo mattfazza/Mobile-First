@@ -1,56 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import React, { Component } from "react";
+import React from "react";
+import {Switch, Route } from "react-router-dom";
 
-class ComponentManager extends Component {
+import LandingPage from "./landingpage";
+import About from "./about";
+import Contact from "./contact";
+import Work from "./work";
 
-    constructor(props){
-        super(props);
-        this.state = { activeTab: 0 };
-    }
+const ComponentManager = () => (
+    <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/work" component={Work} />
+    </Switch>
+)
 
-    changePage(){
-
-        if(this.state.activeTab === "About"){
-            return(
-                <div>
-                    Content for About me Page
-                </div>
-            )
-            }else if(this.state.activeTab==="Work"){
-            return(
-                <div>
-                    Content for Work Samples
-                </div>
-            )
-            }else if (this.state.activeTab === "Contact"){
-                return(
-                    <div>
-                        Content for About me 
-                    </div>
-                )
-            }
-        }
-        
-
-        render(){
-            return(
-                <div className="landing-container">
-                    <div className="row">
-                        <div class="col-12">
-                            <img src={require("../img/bean_large.jpg")} class="img-fluid" alt="Responsive image" />
-
-                            <h1 className = "main-Title">Matt Fazza</h1>
-                            <hr className = "dotted-Line"/>
-                            <h2 className = "sub-Title">Chicago-based Full Stack Engineer</h2>
-
-                        </div>
-                    </div>
-                </div>
-            )
-        }
-
-
-
-    }
-
-    export default ComponentManager;
+export default ComponentManager;
