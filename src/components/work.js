@@ -12,7 +12,7 @@ class Work extends Component {
                         className="vertical-timeline-element--work"
                         date="October, 2018 - Present"
                         iconStyle={{ background: '#009933', color: '#fff' }}
-                        icon={<i className="fa fa-linkedin-square" area-hidden="true" />}
+                        icon={<div></div>}
                     >
                         <h3 className="vertical-timeline-element-title">Software Engineer - Fidelity Investments</h3>
                         <h4 className="vertical-timeline-element-subtitle">Corporate Technology Group - Dallas, TX</h4>
@@ -25,7 +25,7 @@ class Work extends Component {
                         className="vertical-timeline-element--work"
                         date="June,2018 - September, 2018"
                         iconStyle={{ background: '#009933', color: '#fff' }}
-                        icon={<i className="fa fa-linkedin-square" area-hidden="true" />}
+                        icon={<div></div>}
                     >
                         <h3 className="vertical-timeline-element-title">Software Engineer - Fidelity Investments</h3>
                         <h4 className="vertical-timeline-element-subtitle">FMRCO - Raleigh, NC</h4>
@@ -36,8 +36,8 @@ class Work extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="January, 2018 - May 2018"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<i className="fa fa-linkedin-square" area-hidden="true" />}
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
+                        icon={<div></div>}
                     >
                         <h3 className="vertical-timeline-element-title">The Fellows Group LLC - Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">Food Blockchain - Dallas, TX</h4>
@@ -46,6 +46,10 @@ class Work extends Component {
                         <p>Tech: Solidity, Javascript, Truffle, Drizzle, Node.js</p>
                     </VerticalTimelineElement>
                     </VerticalTimeline>
+
+
+                    
+
 
             </div>
 
