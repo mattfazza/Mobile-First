@@ -54,8 +54,11 @@
     transform: translate(-50%, -50%);
 }
 
-.work-outer {
+.experience-outer {
 
-    background-color:rgb(59, 99, 158);
-
+    background: fixed;
+    background-image: url("../src/img/pier.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
 }

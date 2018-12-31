@@ -6,7 +6,7 @@ class Work extends Component {
 
     render(){
         return(
-            <div className="work-outer">
+            <div className="experience-outer">
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -45,8 +45,21 @@ class Work extends Component {
                         <p></p>
                         <p>Tech: Solidity, Javascript, Truffle, Drizzle, Node.js</p>
                     </VerticalTimelineElement>
-                    </VerticalTimeline>
 
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="January, 2015 - May 2018"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
+                        icon={<div></div>}
+                    >
+                        <h3 className="vertical-timeline-element-title">The University of Texas at Dallas</h3>
+                        <h4 className="vertical-timeline-element-subtitle">B.S. in Software Engineering</h4>
+                        <p>sdlkfjdsl;kfjdl;skjfl;kdsfjds</p>
+                        <p></p>
+                        <p>fsdkjfl;dsjkfl;kdjsfkl;dsjfl;kdsj</p>
+                    </VerticalTimelineElement>
+
+                    </VerticalTimeline>
 
                     
 
