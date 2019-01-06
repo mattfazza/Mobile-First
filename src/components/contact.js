@@ -4,8 +4,9 @@ class Contact extends Component {
 
     render(){
         return(
-            <div>
-                Contact
+            <div className="contact-outer">
+
+                
             </div>
 
         );        
