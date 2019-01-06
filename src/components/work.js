@@ -54,9 +54,9 @@ class Work extends Component {
                     >
                         <h3 className="vertical-timeline-element-title">The University of Texas at Dallas</h3>
                         <h4 className="vertical-timeline-element-subtitle">B.S. in Software Engineering</h4>
-                        <p>sdlkfjdsl;kfjdl;skjfl;kdsfjds</p>
+                        <p>3.17 GPA</p>
                         <p></p>
-                        <p>fsdkjfl;dsjkfl;kdjsfkl;dsjfl;kdsj</p>
+                        <p>Organizations: UTD Blockchain Club, Phi Theta Kappa, Industrial Practice Program</p>
                     </VerticalTimelineElement>
 
                     </VerticalTimeline>
