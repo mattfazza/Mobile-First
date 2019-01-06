@@ -49,7 +49,7 @@ class Work extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="January, 2015 - May 2018"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
+                        iconStyle={{ background: 'rgb(255,140,0)', color: '#fff'}}
                         icon={<div></div>}
                     >
                         <h3 className="vertical-timeline-element-title">The University of Texas at Dallas</h3>
