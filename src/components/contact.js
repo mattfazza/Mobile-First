@@ -16,11 +16,11 @@ class Contact extends Component {
 
                         <p></p>
                         <div className="banner-text">
-                            <h1>Matt Fazza Full Stack Engineer</h1>
+                            <h1>Matt Fazza - Full Stack Engineer</h1>
 
                             <hr />
 
-                            <p>Either find me in the links below, or send an email to matthewfazza@yahoo.com</p>
+                            <p>Either find me on the links below, or send an email to matthewfazza@yahoo.com!</p>
 
                             {/* LinkedIn */}
                             <div className="socialLinks">

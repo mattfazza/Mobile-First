@@ -14,7 +14,7 @@ class About extends Component {
                         <div className="banner-text-about">
                             <p>Hi, I'm Matt Fazza.</p>
  
-                            <p>I am currently a working as a software engineer at Fidelity Investments in Dallas, TX, and formerly at The Fellows Group LLC.  Because of my familiarity with Blockchain, I was working within that space before I graduated.  Upon graduating, I started working for Fidelity.  I've worked on several projects there: a full-stack web application, a data-science project, and some efforts on DevOps.  </p>
+                            <p>I am currently a working as a software engineer at Fidelity Investments in Dallas, TX, and formerly at The Fellows Group LLC.  Because of my familiarity with Blockchain, I was working within that space before I graduated.  Upon graduating, I started working for Fidelity, and I've been part of several projects there: a full-stack web application, a data-science project, and some efforts on DevOps.  </p>
 
                             <p>Although I currently work mostly with DevOps at Fidelity, my real passion lies with the MERN Stack.  I am always building something with React.js, and I really like the ecosystem.  Apart from running, taking care of my dogs, and playing music, that's how I spend most of my time.</p>
 
