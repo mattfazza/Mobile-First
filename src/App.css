@@ -278,3 +278,16 @@
   .card-body {
     background-color: white;
   }
+
+  .linksInProjects {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+  }
+
+  .linksInProjects span {
+    font-size: 2em;
+    padding: 8px;
+  }

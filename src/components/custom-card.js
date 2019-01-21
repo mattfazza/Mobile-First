@@ -10,16 +10,18 @@ function customCard(props) {
                 <CardTitle>{props.cardTitle}</CardTitle>
                 <CardText> {props.cardText}</CardText>
 
-                <a href={props.link} rel="noopener noreferrer" target="_blank">
-                    <span class="fa fa-link" area-hidden="true"></span>
-                </a>
+                <div className="linksInProjects">
+                    <a href={props.link} rel="noopener noreferrer" target="_blank">
+                        <span class="fa fa-link" area-hidden="true" ></span>
+                    </a>
 
-                <a href={props.github} rel="noopener noreferrer" target="_blank">
-                    <span class="fab fa-github" area-hidden="true"></span>
-                </a>
+                    <a href={props.github} rel="noopener noreferrer" target="_blank">
+                        <span class="fab fa-github" area-hidden="true"></span>
+                    </a>
+                </div>
 
             </CardBody>
-        </Card>
+        </Card >
     )
 }
 
