@@ -9,22 +9,25 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className = "master-bar">
+        <div className="master-bar">
           <ul class="nav justify-content-center">
-          <li class="nav-item">
+            <li class="nav-item">
               <Link class="nav-link active" to="/about">About</Link>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
               <Link class="nav-link" to="/work">Experience</Link>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/projects">Projects</Link>
+            </li>
+            <li class="nav-item">
               <Link class="nav-link" to="/contact">Contact</Link>
-          </li>
+            </li>
           </ul>
-      </div>
+        </div>
 
 
-      <ComponentManager/>
+        <ComponentManager />
 
       </div>
     );

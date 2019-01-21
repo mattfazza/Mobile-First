@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 class Work extends Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="experience-outer">
                 <VerticalTimeline>
                     <VerticalTimelineElement
@@ -36,7 +36,7 @@ class Work extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="January, 2018 - May 2018"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<div></div>}
                     >
                         <h3 className="vertical-timeline-element-title">The Fellows Group LLC - Software Engineer</h3>
@@ -49,7 +49,7 @@ class Work extends Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="January, 2015 - May 2018"
-                        iconStyle={{ background: 'rgb(255,140,0)', color: '#fff'}}
+                        iconStyle={{ background: 'rgb(255,140,0)', color: '#fff' }}
                         icon={<div></div>}
                     >
                         <h3 className="vertical-timeline-element-title">The University of Texas at Dallas</h3>
@@ -59,14 +59,11 @@ class Work extends Component {
                         <p>Organizations: UTD Blockchain Club, Phi Theta Kappa, Industrial Practice Program</p>
                     </VerticalTimelineElement>
 
-                    </VerticalTimeline>
-
-                    
-
+                </VerticalTimeline>
 
             </div>
 
-        );        
+        );
     }
 }
 

@@ -242,3 +242,39 @@
     font-size: 5em;
     padding: 8px;
   }
+
+
+  /* Projects */
+  .projects-outer {
+
+    max-width:100%;
+    width:100%;
+    height: 100vh;
+    text-align: center;
+
+    background-image: url("../src/img/culturalcenter.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+  }
+
+  /*As long as we keep the parent under control we don't have to worry about the children*/
+  .card-parent {
+    width: 35vh;
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    margin: auto;
+
+
+    margin-top: 5em;
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+
+  .card-body {
+    background-color: white;
+  }
