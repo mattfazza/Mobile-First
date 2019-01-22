@@ -5,9 +5,9 @@ class Projects extends Component {
 
 
     project0 = {
-        image: "https://raw.githubusercontent.com/mattfazza/Weather/master/Initial.png",
+        image: "https://raw.githubusercontent.com/mattfazza/Mobile-First/Feature/Projects/src/img/initial.png",
         cardTitle: "Mobile-first Personal Website",
-        cardText: "This website was completely made with react.  Made with React, and Reactstrap, this is a mobile-fist website.  Check it out on your phone!",
+        cardText: "This mobile-first website you're seeing right now was completely made with React and react-strap",
         github: "https://github.com/mattfazza/Mobile-First"
     }
 
@@ -15,7 +15,7 @@ class Projects extends Component {
         image: "https://raw.githubusercontent.com/mattfazza/Weather/master/Display.png",
         cardTitle: "React Weather App",
         cardText: "Search for a city and get real time weather.  Made with React, Material, and Bootstrap.  Link: UI demo only.",
-        link: "https:www.google.com",
+        link: "https://lucid-bose-73702e.netlify.com/",
         github: "https://github.com/mattfazza/Weather"
     }
 
@@ -27,6 +27,26 @@ class Projects extends Component {
         github: "https://github.com/mattfazza/ToDoList"
     }
 
+    project3 = {
+        image: "https://blog.hyperiondev.com/wp-content/uploads/2018/09/Blog-Article-MERN-Stack.jpg",
+        cardTitle: "Social Network Mock (in progress)",
+        cardText: "Social network website where users can register, upload pictures, comment, and interact.  Made with MongoDB, Express, React, and Node.  Still in progress.",
+        github: "https://github.com/mattfazza/Coolinary"
+    }
+
+    project4 = {
+        image: "https://euler.com/wp-content/uploads/2018/02/Python-Course-Euler-Training-Center.png",
+        cardTitle: "PyChat",
+        cardText: "Python chat app made with socket programming over TCP.  Support multiple users and routes messages according to chat session.",
+        github: "https://github.com/mattfazza/Networks"
+    }
+
+    project5 = {
+        image: "https://raw.githubusercontent.com/mattfazza/myportfolio/master/src/img/ContactPage.png",
+        cardTitle: "Old Portfolio",
+        cardText: "Old Portfolio website I made with React, and Material Design Lite.",
+        github: "https://github.com/mattfazza/myportfolio"
+    }
 
     render() {
         return (
@@ -34,6 +54,9 @@ class Projects extends Component {
                 {customCard(this.project0)}
                 {customCard(this.project1)}
                 {customCard(this.project2)}
+                {customCard(this.project3)}
+                {customCard(this.project4)}
+                {customCard(this.project5)}
 
                 <div style={{ height: "6em" }} />
             </div>

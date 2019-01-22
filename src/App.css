@@ -138,6 +138,8 @@
   height: 100%;
   overflow: scroll;
   max-width:100%;
+  -webkit-overflow-scrolling: touch;
+
 
   }
 
@@ -259,6 +261,7 @@
     background-repeat:no-repeat;
     position: fixed;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 
   /*As long as we keep the parent under control we don't have to worry about the children*/
@@ -266,10 +269,10 @@
     width: 18em;
     height: auto;
 
+    vertical-align: top;
     justify-content: space-between;
     display: inline-block;
     margin: auto;
-
 
     margin-top: 5em;
     margin-left: 5vh;
