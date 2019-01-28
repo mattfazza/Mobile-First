@@ -4,6 +4,9 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 function customCard(props) {
 
+
+    //logic is simple: if there exists a link, we render the card with the link
+    //otherwise we render the one without it
     if (props.link) {
         return (
             <Card className='card-parent'>
