@@ -48,6 +48,27 @@ class Projects extends Component {
         github: "https://github.com/mattfazza/myportfolio"
     }
 
+    project6 = {
+        image: "https://raw.githubusercontent.com/mattfazza/PasswordGenerator/master/src/img/Generator.png",
+        cardTitle: "Password Generator",
+        cardText: "I needed a password generator, so I made one with React using states to figure out constraints",
+        github: "https://github.com/mattfazza/PasswordGenerator"
+    }
+
+    project7 = {
+        image: "https://images.techhive.com/images/article/2016/12/mac-app-store-icon-sierra-100700497-large.jpg",
+        cardTitle: "Memory Game",
+        cardText: "Simple memory game made with Swift on XCode to brush up on my ios development skills",
+        github: "https://github.com/mattfazza/iOS/tree/master/Concentration"
+    }
+
+    project8 = {
+        image: "https://www.pngkey.com/png/detail/490-4904973_our-wifi-smart-cameras-work-with-amazon-alexa.png",
+        cardTitle: "Alexa Daisy Skill",
+        cardText: "I got an Amazon Alexa for Christmas, so I made a skill to see how it works.",
+        github: "https://github.com/mattfazza/DaisySkill"
+    }
+
     render() {
         return (
             <div className='projects-outer'>
@@ -57,6 +78,9 @@ class Projects extends Component {
                 {customCard(this.project3)}
                 {customCard(this.project4)}
                 {customCard(this.project5)}
+                {customCard(this.project6)}
+                {customCard(this.project7)}
+                {customCard(this.project8)}
 
                 <div style={{ height: "6em" }} />
             </div>
